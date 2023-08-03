@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color:#2A254B;
+    --btn-color:#008080;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+.Support{
+    margin-top: 5rem;
+}
+.support-header{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    font-size: 2rem;
+    color:var(--text-color);
+    font-weight: 600;
+
+}
+.Support-group{
+    display: flex;
+    margin:  3rem 5rem;
+    justify-content: space-between;
+}
+.Support-group1{
+    padding: 10px;
+    width: 50%;
+}
+.support-cnt1,.support-cnt2{
+    line-height: 1.5em;
+    margin-top: 2rem;
+}
+.support-cnt1{
+    font-size:1.5rem;
+    font-weight: 300;
+    color: #2A254B;  
+}
+.support-cnt2{
+font-size: 1rem;
+}
+.Support-group2{
+    width: 45%;
+}
+.Support-group2 img{
+    width: 100%;
+    
+}
+.Support-btn{
+ background-color:var(--btn-color);
+ border: 0;
+ padding: 12px 30px;
+ display: block;
+ margin-top: 1.3rem;
+ color: #fff;
+}
+.support-core{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.support-core-cnt{
+    margin: 1.5rem 0;
+    color: #505977;
+}
+.support-list li{
+    list-style: none;
+    color: #505977;
+}
+.support-core2{
+color: #505977;
+}
+
+/* MEDIA QUERY */
+/* Tablet Styles */
+@media (max-width: 920px) {
+    .Support-header {
+        width: 90%;
+    }
+    .Support-group {
+        flex-wrap: wrap;
+        margin: 2rem 2rem;
+    }
+    .Support-group1 {
+        width: 100%;
+    }
+    .Support-group2 {
+        width: 100%;
+    }
+}
+/* Mobile Styles */
+@media (max-width: 480px) {
+    .Support-header {
+        font-size: 1.5rem;
+    }
+    .Support-group {
+        flex-wrap: wrap;
+        margin: 1rem 1rem;
+    }
+    .Support-group1, .Support-group2 {
+        width: 100%;
+    }
+    .Support-btn {
+        margin-top: 1rem;
+    }
+}
+
+
